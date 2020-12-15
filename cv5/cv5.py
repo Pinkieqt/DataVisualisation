@@ -9,7 +9,7 @@ import matplotlib.animation as animation
 from mpl_toolkits.mplot3d import Axes3D
 import scipy.spatial as spatial
 
-data_path = "/media/pinkie/FA3E8D353E8CEBC7/VDData/cv5_6_marchingcubes/"
+data_path = "C:/VDData/cv5_6_marchingcubes/"
 num_particles = 64000
 dist = 0.018
 

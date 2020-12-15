@@ -1,0 +1,94 @@
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+  <body>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <!-- Create a div where the graph will take place -->
+    <div id="my_dataviz"></div>
+
+    <script>
+      // set the dimensions and margins of the graph
+      var margin = { top: 10, right: 30, bottom: 200, left: 40 },
+        width = 1600 - margin.left - margin.right,
+        height = 800 - margin.top - margin.bottom;
+
+      // append the svg object to the body of the page
+      var svg = d3
+        .select("#my_dataviz")
+        .append("text")
+        .style("text-anchor", "middle")
+        .text("Kalorické hodnoty jednotlivých jídel")
+        .append("svg")
+        .attr("width", "100%")
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      // Parse the Data
+      d3.csv(
+        "https://raw.githubusercontent.com/Pinkieqt/pinkieqt.github.io/master/data.csv",
+        function (data) {
+          // X axis
+          var x = d3
+            .scaleBand()
+            .range([0, width])
+            .domain(
+              data.map(function (d) {
+                return d.Item; //TASK: popisky X osy
+              })
+            )
+            .padding(1);
+          svg
+            .append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .attr("transform", "translate(-10,0)rotate(-45)") //TASK: posun po X ose
+            .style("text-anchor", "end");
+
+          // Add Y axis
+          var y = d3.scaleLinear().domain([0, 2000]).range([height, 0]); //TASK: doména osy Y
+          svg.append("g").call(d3.axisLeft(y));
+
+          // Lines
+          svg
+            .selectAll("myline")
+            .data(data)
+            .enter()
+
+            .append("line")
+            .attr("x1", function (d) {
+              return x(d.Item);
+            })
+            .attr("x2", function (d) {
+              return x(d.Item);
+            })
+            .attr("y1", function (d) {
+              return y(d.Calories);
+            })
+            .attr("y2", y(0))
+            .attr("stroke", "red");
+
+          // Circles
+          svg
+            .selectAll("mycircle")
+            .data(data)
+            .enter()
+            .append("circle")
+            .attr("cx", function (d) {
+              return x(d.Item);
+            })
+            .attr("cy", function (d) {
+              return y(d.Calories);
+            })
+            .attr("r", "4")
+            .style("fill", "red")
+            .attr("stroke", "pink");
+        }
+      );
+    </script>
+  </body>
+</html>

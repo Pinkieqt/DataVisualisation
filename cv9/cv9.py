@@ -8,7 +8,7 @@ pathCSV = "C:/Users/Pinkie/Desktop/VD/DataVisualisation/cv9/dimred/data/menu20.c
 pathTXT = "C:/Users/Pinkie/Desktop/VD/DataVisualisation/cv9/dimred/data/menu.txt"
 pathRES = "C:/Users/Pinkie/Desktop/VD/DataVisualisation/cv9/dimred/data/result.txt"
 
-badMeals = [32, 33, 34, 35, 82, 252, 254]
+badMeals = [32, 33, 34, 81, 31, 82, 252, 254]
 healthyMeals = [42, 49, 50, 79, 85, 87, 88, 102, 103]
 
 
@@ -53,5 +53,5 @@ def Vizualize15():
     plt.show()
 
 ###
-VizualizeRES()
+#VizualizeRES()
 Vizualize15()

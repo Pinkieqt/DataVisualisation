@@ -6,9 +6,9 @@ from shapely.geometry import Point, Polygon
 from matplotlib.pyplot import figure
 
 
-img_size = 251
+img_size = 253
 step = 25 #10
-sz = 2
+sz = 5
 sizeScale = 0.05
 cellSize = img_size / step + 1
 
@@ -84,7 +84,7 @@ def showImg(img, cellPoints):
         plt.plot([cellPoints[i].p1[0], cellPoints[i].p2[0], cellPoints[i].p3[0], cellPoints[i].p4[0], cellPoints[i].p1[0]],
          [cellPoints[i].p1[1], cellPoints[i].p2[1], cellPoints[i].p3[1], cellPoints[i].p4[1], cellPoints[i].p1[1]],
           color="black", alpha=0.1)
-    plt.rcParams["figure.figsize"] = (50,10)
+    #plt.rcParams["figure.figsize"] = (50,10)
     #plt.savefig("./orig.png")
     plt.show()
 
@@ -151,20 +151,20 @@ def Vizualize():
         imgvalue = math.cos(val[0] * sizeScale) * math.sin(val[1] * sizeScale)
         cell.value = imgvalue
 
-        # for row in range(cell.p1[0], cell.p2[0]):
-        #     for col in range(cell.p4[1], cell.p1[1]):
-        #         if (isInsideCell(cell, [row, col]) == True):
-        #             reconstruct[row][col] = imgvalue
+        for row in range(cell.p1[0], cell.p2[0]):
+            for col in range(cell.p4[1], cell.p1[1]):
+                if (isInsideCell(cell, [row, col]) == True):
+                    reconstruct[row][col] = imgvalue
     
     print("Reconstructing")
     #Color reconstructed image
-    for row in range(img_size):
-        for col in range(img_size):
-            for cell in cellPoints:
-                if(isInsideCell(cell, [row, col])):
-                    reconstruct[row, col] = cell.value
-                    continue
-        if(row%25 == 0): print(row)
+    # for row in range(img_size):
+    #     for col in range(img_size):
+    #         for cell in cellPoints:
+    #             if(isInsideCell(cell, [row, col])):
+    #                 reconstruct[row, col] = cell.value
+    #                 continue
+    #     if(row%25 == 0): print(row)
 
 
     showImg(img, cellPoints)

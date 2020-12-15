@@ -1,0 +1,57 @@
+Category,Item,Serving Size,Calories,Calories from Fat,Total Fat,Total Fat (% Daily Value),Saturated Fat,Saturated Fat (% Daily Value),Trans Fat,Cholesterol,Cholesterol (% Daily Value),Sodium,Sodium (% Daily Value),Carbohydrates,Carbohydrates (% Daily Value),Dietary Fiber,Dietary Fiber (% Daily Value),Sugars,Protein,Vitamin A,Vitamin C,Calcium (% Daily Value),Iron (% Daily Value)
+Breakfast,Egg McMuffin,4.8 oz (136 g),300,120,13,20,5,25,0,260,87,750,31,31,10,4,17,3,17,10,0,25,15
+Breakfast,Egg White Delight,4.8 oz (135 g),250,70,8,12,3,15,0,25,8,770,32,30,10,4,17,3,18,6,0,25,8
+Breakfast,Sausage McMuffin,3.9 oz (111 g),370,200,23,35,8,42,0,45,15,780,33,29,10,4,17,2,14,8,0,25,10
+Breakfast,Fruit & Maple Oatmeal,9.6 oz (251 g),290,35,4,6,1.5,8,0,5,2,160,7,58,19,5,19,32,5,2,130,10,10
+Breakfast,Fruit & Maple Oatmeal without Brown Sugar,9.6 oz (251 g),260,40,4,6,1.5,8,0,5,2,115,5,49,16,5,22,18,5,2,130,6,10
+Beef & Pork,Big Mac,7.4 oz (211 g),530,240,27,42,10,48,1,85,28,960,40,47,16,3,13,9,24,6,2,25,25
+Beef & Pork,Quarter Pounder with Cheese,7.1 oz (202 g),520,240,26,41,12,61,1.5,95,31,1100,46,41,14,3,11,10,30,10,2,30,25
+Beef & Pork,Quarter Pounder with Bacon & Cheese,8 oz (227 g),600,260,29,45,13,63,1.5,105,34,1440,60,48,16,3,12,12,37,6,15,25,30
+Beef & Pork,Bacon McDouble,5.7 oz (161 g),440,200,22,34,10,49,1,90,30,1110,46,35,12,2,7,7,27,6,10,20,20
+Beef & Pork,Daily Double,6.7 oz (190 g),430,200,22,35,9,44,1,80,27,760,32,34,11,2,8,7,22,8,8,20,20
+Beef & Pork,Jalapeño Double,5.6 oz (159 g),430,210,23,36,9,44,1,80,27,1030,43,35,12,2,7,6,22,6,8,20,20
+Beef & Pork,McRib,7.3 oz (208 g),500,240,26,40,10,48,0,70,23,980,41,44,15,3,10,11,22,2,2,15,20
+Chicken & Fish,Premium Crispy Chicken Classic Sandwich,7.5 oz (213 g),510,200,22,33,3.5,18,0,45,16,990,41,55,18,3,13,10,24,4,6,15,20
+Chicken & Fish,Chicken McNuggets (6 piece),3.4 oz (97 g),280,160,18,27,3,15,0,40,13,540,22,18,6,1,4,0,13,0,2,2,4
+Chicken & Fish,Chicken McNuggets (10 piece),5.7 oz (162 g),470,270,30,45,5,25,0,65,22,900,37,30,10,2,6,0,22,0,4,2,6
+Chicken & Fish,Chicken McNuggets (20 piece),11.4 oz (323 g),940,530,59,91,10,50,0,135,44,1800,75,59,20,3,12,0,44,0,8,4,10
+Chicken & Fish,Chicken McNuggets (40 piece),22.8 oz (646 g),1880,1060,118,182,20,101,1,265,89,3600,150,118,39,6,24,1,87,0,15,8,25
+Chicken & Fish,Filet-O-Fish,5 oz (142 g),390,170,19,29,4,19,0,40,14,590,24,39,13,2,7,5,15,2,0,15,10
+Salads,Premium Bacon Ranch Salad (without Chicken),7.9 oz (223 g),140,70,7,11,3.5,18,0,25,9,300,13,10,3,3,12,4,9,170,30,15,6
+Salads,Premium Bacon Ranch Salad with Crispy Chicken,9 oz (255 g),380,190,21,33,6,29,0,70,23,860,36,22,7,2,10,5,25,100,25,15,8
+Salads,Premium Bacon Ranch Salad with Grilled Chicken,8.5 oz (241 g),220,80,8,13,4,20,0,85,29,690,29,8,3,2,10,4,29,110,30,15,8
+Salads,Premium Southwest Salad (without Chicken),8.1 oz (230 g),140,40,4.5,7,2,9,0,10,3,150,6,20,7,6,23,6,6,160,25,15,10
+Salads,Premium Southwest Salad with Crispy Chicken,12.3 oz (348 g),450,190,22,33,4.5,22,0,50,17,850,35,42,14,7,28,12,23,170,30,15,15
+Salads,Premium Southwest Salad with Grilled Chicken,11.8 oz (335 g),290,80,8,13,2.5,13,0,70,23,680,28,28,9,7,28,10,27,170,30,15,15
+Snacks & Sides,Chipotle BBQ Snack Wrap (Crispy Chicken),4.6 oz (130 g),340,130,15,23,4.5,22,0,30,11,780,33,37,12,1,6,8,14,4,0,10,10
+Snacks & Sides,Chipotle BBQ Snack Wrap (Grilled Chicken),4.3 oz (123 g),260,70,8,13,3.5,18,0,40,14,700,29,30,10,1,6,7,16,4,2,10,10
+Snacks & Sides,Honey Mustard Snack Wrap (Crispy Chicken),4.3 oz (123 g),330,130,15,23,4.5,22,0,35,11,730,30,34,11,1,5,3,14,2,0,10,10
+Snacks & Sides,Honey Mustard Snack Wrap (Grilled Chicken),4.1 oz (116 g),250,70,8,13,3.5,18,0,45,14,650,27,27,9,1,5,2,16,2,2,10,10
+Snacks & Sides,Ranch Snack Wrap (Crispy Chicken),4.5 oz (128 g),360,180,20,30,5,27,0,40,13,810,34,32,11,1,5,3,15,2,0,10,10
+Snacks & Sides,Ranch Snack Wrap (Grilled Chicken),4.3 oz (121 g),280,120,13,20,4.5,22,0,45,16,720,30,25,8,1,5,2,16,2,2,10,10
+Snacks & Sides,Small French Fries,2.6 oz (75 g),230,100,11,17,1.5,8,0,0,0,130,5,30,10,2,10,0,2,0,30,0,4
+Snacks & Sides,Medium French Fries,3.9 oz (111 g),340,140,16,24,2.5,11,0,0,0,190,8,44,15,4,14,0,4,0,45,2,4
+Snacks & Sides,Large French Fries,5.9 oz (168 g),510,220,24,37,3.5,17,0,0,0,290,12,67,22,5,22,0,6,0,70,2,8
+Snacks & Sides,Kids French Fries,1.3 oz (38 g),110,50,5,8,1,4,0,0,0,65,3,15,5,1,5,0,1,0,15,0,2
+Snacks & Sides,Side Salad,3.1 oz (87 g),20,0,0,0,0,0,0,0,0,10,0,4,1,1,6,2,1,45,25,2,4
+Snacks & Sides,Apple Slices,1.2 oz (34 g),15,0,0,0,0,0,0,0,0,0,0,4,1,0,0,3,0,0,160,2,0
+Snacks & Sides,Fruit 'n Yogurt Parfait,5.2 oz (149 g),150,20,2,3,1,5,0,5,2,70,3,30,10,1,3,23,4,2,15,10,4
+Desserts,Baked Apple Pie,2.7 oz (77 g),250,110,13,19,7,35,0,0,0,170,7,32,11,4,15,13,2,4,25,2,6
+Desserts,Chocolate Chip Cookie,1 cookie (33 g),160,70,8,12,3.5,19,0,10,3,90,4,21,7,1,3,15,2,2,0,2,8
+Desserts,Oatmeal Raisin Cookie,1 cookie (33 g),150,50,6,9,2.5,13,0,10,3,135,6,22,7,1,3,13,2,2,0,2,6
+Desserts,Kids Ice Cream Cone,1 oz (29 g),45,10,1.5,2,1,4,0,5,2,20,1,7,2,0,0,6,1,2,0,4,0
+Desserts,Hot Fudge Sundae,6.3 oz (179 g),330,80,9,14,7,34,0,25,8,170,7,53,18,1,3,48,8,8,0,25,8
+Desserts,Hot Caramel Sundae,6.4 oz (182 g),340,70,8,12,5,24,0,30,10,150,6,60,20,0,0,43,7,10,0,25,0
+Desserts,Strawberry Sundae,6.3 oz (178 g),280,60,6,10,4,20,0,25,8,85,4,49,16,0,0,45,6,8,4,20,0
+Coffee & Tea,Frappé Caramel (Medium),16 fl oz cup,550,200,23,35,15,73,1,80,27,160,7,79,26,0,0,71,9,20,0,30,2
+Coffee & Tea,Frappé Caramel (Large),22 fl oz cup,670,250,27,42,17,87,1.5,95,32,190,8,96,32,0,0,88,11,20,0,35,2
+Coffee & Tea,Frappé Chocolate Chip (Small),12 fl oz cup,530,200,23,35,14,72,1,65,22,135,6,76,25,1,5,67,8,15,0,25,4
+Coffee & Tea,Frappé Chocolate Chip (Medium),16 fl oz cup,630,240,26,41,17,85,1,80,26,160,7,91,30,1,5,81,9,15,0,30,4
+Coffee & Tea,Frappé Chocolate Chip (Large),22 fl oz cup,760,280,31,48,20,101,1.5,95,32,200,8,111,37,1,5,99,12,20,0,35,6
+Smoothies & Shakes,Blueberry Pomegranate Smoothie (Small),12 fl oz cup,220,5,0.5,1,0,0,0,5,1,40,2,50,17,3,12,44,2,0,2,6,2
+Smoothies & Shakes,Blueberry Pomegranate Smoothie (Medium),16 fl oz cup,260,5,1,1,0,0,0,5,1,50,2,62,21,4,15,54,3,0,4,8,2
+Smoothies & Shakes,Blueberry Pomegranate Smoothie (Large),22 fl oz cup,340,10,1,2,0.5,3,0,5,2,65,3,79,26,5,19,70,4,0,4,10,2
+Smoothies & Shakes,Strawberry Banana Smoothie (Small),12 fl oz cup,210,5,0.5,1,0,0,0,5,1,50,2,47,16,3,10,44,3,0,30,8,2
+Smoothies & Shakes,Strawberry Banana Smoothie (Medium),16 fl oz cup,250,5,1,1,0,0,0,5,1,60,2,58,19,3,13,54,4,0,35,8,4
+Smoothies & Shakes,Strawberry Banana Smoothie (Large),22 fl oz cup,330,10,1,2,0.5,3,0,5,2,80,3,74,25,4,16,70,5,0,45,10,4
+Smoothies & Shakes,McFlurry with Reese's Peanut Butter Cups (Snack),7.1 oz (202 g),410,150,16,25,8,38,0,30,10,200,8,57,19,1,5,51,10,10,0,30,4

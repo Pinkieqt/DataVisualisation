@@ -1,0 +1,3 @@
+/home/pinkie/Desktop/VD/cv3/CMakeFiles/rebuild_cache.dir
+/home/pinkie/Desktop/VD/cv3/CMakeFiles/edit_cache.dir
+/home/pinkie/Desktop/VD/cv3/CMakeFiles/main.dir

@@ -89,26 +89,25 @@ def VizualizeGlyphs():
         mat = u.getNode("flow").mat() # (256, 256, 2) * 1000 iterations
 
         delta_t = 1
-
+        
+        # Calculate glyphs positions
         glyphs = []
         for x in range(0, size, 10):
             for y in range(0, size, 10):
                 #hedgehogs
                 velocity = mat[y][x]
-                lineX1 = (x, y)
-                lineX2 = tuple(np.array([x, y]) + (delta_t * velocity))
-                glyphs.append([lineX1, lineX2])
+                glyphs.append([(x, y), tuple(np.array([x, y]) + (delta_t * velocity))])
 
 
 
         for point in range(len(points)):
             velocityAddition = mat[int(points[point][1])][int(points[point][0])] * delta_t
             points[point] = points[point] + velocityAddition
-
             points[point][0] = size - 1 if points[point][0] > size - 1 else points[point][0]
             points[point][1] = size - 1 if points[point][1] > size - 1 else points[point][1]
             points[point][0] = 0 if points[point][0] < 0 else points[point][0]
             points[point][1] = 0 if points[point][1] < 0 else points[point][1]
+
 
         # calculatedMat, im_color_flow = Curl(mat)
         im_color_flow = vizFlow(mat)

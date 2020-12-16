@@ -14,13 +14,11 @@ float gaussianFunction(float x, float y){
   float dev = (2.f * variation * variation);
   float xx = exp(-(pow(x - CENTER, 2) / dev));
   float yy = exp(-(pow(y - CENTER, 2) / dev));
-  return xx * yy * 255; //because exp is 0-1
-  //return exp(-((pow(x - CENTER, 2) / 2 * variation * variation) + (pow(y - CENTER, 2) / 2 * variation * variation))) * 255;
+  return xx * yy * 255; 
 }
 
 // Function to generate numbers on 500 x 500
 cv::Mat1f generateNumbers(){
-  // https://stackoverflow.com/questions/38244877/how-to-use-stdnormal-distribution/38245134
   std::random_device rd; 
   std::mt19937 gen(rd()); 
   cv::Mat1f points = cv::Mat1f(N_POINTS, 2);
@@ -58,12 +56,6 @@ cv::Mat1f getZ(cv::Mat1f points){
   return pointsVal;
 }
 
-/*
-
-Main -----------------------------------------------------------------------------------------------------------
-
-*/
-
 int main(int argc, const char **argv) {
   cv::Mat1b matrix = cv::Mat1b::zeros(SIZE, SIZE);
   cv::Mat3b res = cv::Mat3b::zeros(SIZE, SIZE);
@@ -80,9 +72,6 @@ int main(int argc, const char **argv) {
   applyColorMap(matrix, res, cv::COLORMAP_MAGMA);
   cv::imshow("Original", res);
 
-
-
-
   cv::Mat1b reconstructionMat = cv::Mat1b::zeros(SIZE, SIZE);
   cv::Mat3b reconstructionRgbMat = cv::Mat3b::zeros(SIZE, SIZE);
   
@@ -98,7 +87,6 @@ int main(int argc, const char **argv) {
       
       
       int n = flannIndex.radiusSearch(query, indices, distances, radius * radius, 20, cv::flann::SearchParams(32));
-      //flannIndex.knnSearch(query, indices, distances, 10, cv::flann::SearchParams(64));
       int n = 1;
       if (n > 0) {
         const int indicesCount = std::min<int>(indices.size(), n);

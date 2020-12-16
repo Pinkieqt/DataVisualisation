@@ -11,7 +11,7 @@ NUM_POINTS = 125
 SIZE = 500
 CENTER = SIZE / 2
 VARIATION = 100
-RAD = 200
+RAD = 30
 
 ### Point class
 class Point:
@@ -27,6 +27,7 @@ def Gaussian(x, y):
     xx = math.exp(-math.pow(x - CENTER, 2) / dev)
     yy = math.exp(-math.pow(y - CENTER, 2) / dev)
     return xx * yy * 255
+    
 
 ### Function to generate numbers on canvas
 def GeneratePoints():

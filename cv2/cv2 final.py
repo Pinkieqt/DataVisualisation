@@ -151,20 +151,20 @@ def Vizualize():
         imgvalue = math.cos(val[0] * sizeScale) * math.sin(val[1] * sizeScale)
         cell.value = imgvalue
 
-        for row in range(cell.p1[0], cell.p2[0]):
-            for col in range(cell.p4[1], cell.p1[1]):
-                if (isInsideCell(cell, [row, col]) == True):
-                    reconstruct[row][col] = imgvalue
+        # for row in range(cell.p1[0], cell.p2[0]):
+        #     for col in range(cell.p4[1], cell.p1[1]):
+        #         if (isInsideCell(cell, [row, col]) == True):
+        #             reconstruct[row][col] = imgvalue
     
     print("Reconstructing")
     #Color reconstructed image
-    # for row in range(img_size):
-    #     for col in range(img_size):
-    #         for cell in cellPoints:
-    #             if(isInsideCell(cell, [row, col])):
-    #                 reconstruct[row, col] = cell.value
-    #                 continue
-    #     if(row%25 == 0): print(row)
+    for row in range(img_size):
+        for col in range(img_size):
+            for cell in cellPoints:
+                if(isInsideCell(cell, [row, col])):
+                    reconstruct[row, col] = cell.value
+                    continue
+        if(row%25 == 0): print(row)
 
 
     showImg(img, cellPoints)

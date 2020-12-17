@@ -53,5 +53,5 @@ def Vizualize15():
     plt.show()
 
 ###
-#VizualizeRES()
+VizualizeRES()
 Vizualize15()

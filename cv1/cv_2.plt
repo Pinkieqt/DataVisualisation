@@ -3,11 +3,9 @@ set encoding utf8
 
 set output "cv_2.pdf"
 
-#definovani barvy os
 set style line 80 linetype 1 linecolor "#000000" linewidth 2 
 set border 3 back linestyle 80
 
-#mrizka
 set style line 81 lt 0
 set style line 81 lt rgb "0x00D3D3D3"
 set style line 81 lw 0.5

@@ -8,12 +8,10 @@ set format x "%Y.%m"
 
 set output "cv_1.pdf"
 
-#definovani barvy os
 set style line 1 lc rgb '#000000' lt 1 lw 1 pt 2 ps 1 
 set style line 2 lc rgb '#6f00ff' lt 1 lw 1 pt 2 ps 1 
 set border 100 back linestyle 80
 
-#mrizka
 set style line 81 lt 0
 set style line 81 lt rgb "0x00D3D3D3"
 set style line 81 lw 0.5
